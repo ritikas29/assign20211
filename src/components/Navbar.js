@@ -5,7 +5,7 @@ const Navbar = () => {
  
     return (
         <body>
-        
+          <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet"></link>
         <nav class="nav">
         <div class="container">
           <h1 class="logo">SCOOP WHOOP</h1>
@@ -16,7 +16,10 @@ const Navbar = () => {
             <li><a href="#">QUIZZES</a></li>
             <li><a href="#">MEMES</a></li>
             <li><a href="#">SPOTLIGHT</a></li>
-            
+            <li><a href="#">  <i class="large material-icons">turned_in_not</i></a></li>
+            <li><a href="#">  <i class="large material-icons">perm_identity</i></a></li>
+            <li><a href="#">  <i class="large material-icons">search</i></a></li>
+            <li><a href="#">  <i class="large material-icons">dehaze</i></a></li>
           </ul>
         </div>
       </nav>
